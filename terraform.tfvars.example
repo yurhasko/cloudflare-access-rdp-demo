@@ -1,0 +1,21 @@
+# This is an example file. Copy this to terraform.tfvars and fill in your actual values.
+
+# Cloudflare settings
+# You can get these from your Cloudflare dashboard.
+cloudflare_api_token            = "YOUR_CLOUDFLARE_API_TOKEN"
+cloudflare_account_id           = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+cloudflare_zone_id              = "YOUR_CLOUDFLARE_ZONE_ID"
+cloudflare_identity_provider_id = "YOUR_CLOUDFLARE_IDP_ID"
+
+# User Settings
+# The email address that will be granted access to the Cloudflare App Launcher
+access_allowed_email = "user@example.com"
+
+# Azure settings
+azure_subscription_id = "YOUR_AZ_SUBSCRIPTION_ID"
+# project_name = "cf-rdp-demo"
+# location = "East US"
+# admin_username = "azureuser"
+# vm_size = "Standard_D2s_v3"
+# vnet_address_space = "10.0.0.0/16"
+# subnet_address_prefix = "10.0.1.0/24"
